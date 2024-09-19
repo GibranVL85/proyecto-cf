@@ -6,10 +6,10 @@
 Proyecto final de ciencia de datos de código facilito
 
 
-##Titulo
+## Titulo
 Descubrimiento de insigths de peleas de la UFC
 
-##Descripcion
+## Descripcion
 
 Este proyecto enfocado a las artes marciales mixtas (MMA) de la UFC, busca identificar los principales insights como lo son golpes en la cabeza, cuerpo y piernas con esto se pretende detectar posibles traumatismos.
 De igual forma se busca proponer un modelo de Machine Learning que identifica si un peleador va a ganar o no su proximo combate.
