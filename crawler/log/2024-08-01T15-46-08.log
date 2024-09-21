@@ -1,0 +1,1183 @@
+2024-08-01 15:46:08 [scrapy.utils.log] INFO: Scrapy 2.8.0 started (bot: ufcStats)
+2024-08-01 15:46:08 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.4, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.8.0, Python 3.11.7 | packaged by Anaconda, Inc. | (main, Dec 15 2023, 18:05:47) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 24.0.0 (OpenSSL 3.0.14 4 Jun 2024), cryptography 42.0.2, Platform Windows-10-10.0.22631-SP0
+2024-08-01 15:46:08 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'ufcStats',
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 0.5,
+ 'LOG_FILE': 'log/2024-08-01T15-46-08.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'ufcStats.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['ufcStats.spiders']}
+2024-08-01 15:46:08 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\utils\request.py:232: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2024-08-01 15:46:08 [scrapy.extensions.telnet] INFO: Telnet Password: b1b225b7763f9631
+2024-08-01 15:46:08 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-08-01 15:46:08 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-08-01 15:46:08 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-08-01 15:46:08 [scrapy.middleware] INFO: Enabled item pipelines:
+['ufcStats.pipelines.FightSummaryPipeline',
+ 'ufcStats.pipelines.FightStatsPipeline']
+2024-08-01 15:46:08 [scrapy.core.engine] INFO: Spider opened
+2024-08-01 15:46:08 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-08-01 15:46:08 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-08-01 15:46:10 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:46:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:47:08 [scrapy.extensions.logstats] INFO: Crawled 99 pages (at 99 pages/min), scraped 80 items (at 80 items/min)
+2024-08-01 15:48:08 [scrapy.extensions.logstats] INFO: Crawled 191 pages (at 92 pages/min), scraped 170 items (at 90 items/min)
+2024-08-01 15:48:33 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:34 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:34 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:35 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:35 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:36 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:37 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:37 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:38 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:38 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:39 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:48:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:49:08 [scrapy.extensions.logstats] INFO: Crawled 282 pages (at 91 pages/min), scraped 246 items (at 76 items/min)
+2024-08-01 15:50:08 [scrapy.extensions.logstats] INFO: Crawled 383 pages (at 101 pages/min), scraped 347 items (at 101 items/min)
+2024-08-01 15:50:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:22 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:24 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:24 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:24 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:25 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:27 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:50:28 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:08 [scrapy.extensions.logstats] INFO: Crawled 481 pages (at 98 pages/min), scraped 429 items (at 82 items/min)
+2024-08-01 15:51:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:44 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:45 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:45 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:51:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:52:08 [scrapy.extensions.logstats] INFO: Crawled 580 pages (at 99 pages/min), scraped 511 items (at 82 items/min)
+2024-08-01 15:53:08 [scrapy.extensions.logstats] INFO: Crawled 680 pages (at 100 pages/min), scraped 611 items (at 100 items/min)
+2024-08-01 15:53:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:53:22 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:08 [scrapy.extensions.logstats] INFO: Crawled 776 pages (at 96 pages/min), scraped 690 items (at 79 items/min)
+2024-08-01 15:54:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:54:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:01 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:04 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:05 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:06 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:06 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:08 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:55:08 [scrapy.extensions.logstats] INFO: Crawled 856 pages (at 80 pages/min), scraped 753 items (at 63 items/min)
+2024-08-01 15:56:08 [scrapy.extensions.logstats] INFO: Crawled 952 pages (at 96 pages/min), scraped 849 items (at 96 items/min)
+2024-08-01 15:56:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:44 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:45 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:45 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:56:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:57:08 [scrapy.extensions.logstats] INFO: Crawled 1049 pages (at 97 pages/min), scraped 929 items (at 80 items/min)
+2024-08-01 15:58:08 [scrapy.extensions.logstats] INFO: Crawled 1144 pages (at 95 pages/min), scraped 1024 items (at 95 items/min)
+2024-08-01 15:58:33 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:35 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:36 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:37 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:58:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 15:59:08 [scrapy.extensions.logstats] INFO: Crawled 1236 pages (at 92 pages/min), scraped 1102 items (at 78 items/min)
+2024-08-01 16:00:08 [scrapy.extensions.logstats] INFO: Crawled 1330 pages (at 94 pages/min), scraped 1196 items (at 94 items/min)
+2024-08-01 16:00:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:00:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:01:08 [scrapy.extensions.logstats] INFO: Crawled 1424 pages (at 94 pages/min), scraped 1273 items (at 77 items/min)
+2024-08-01 16:02:08 [scrapy.extensions.logstats] INFO: Crawled 1513 pages (at 89 pages/min), scraped 1362 items (at 89 items/min)
+2024-08-01 16:02:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:22 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:22 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:02:23 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:03:08 [scrapy.extensions.logstats] INFO: Crawled 1605 pages (at 92 pages/min), scraped 1437 items (at 75 items/min)
+2024-08-01 16:04:08 [scrapy.extensions.logstats] INFO: Crawled 1678 pages (at 73 pages/min), scraped 1509 items (at 72 items/min)
+2024-08-01 16:04:37 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:38 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:38 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:39 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:42 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:43 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:44 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:44 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:45 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:04:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:05:08 [scrapy.extensions.logstats] INFO: Crawled 1776 pages (at 98 pages/min), scraped 1590 items (at 81 items/min)
+2024-08-01 16:06:08 [scrapy.extensions.logstats] INFO: Crawled 1864 pages (at 88 pages/min), scraped 1679 items (at 89 items/min)
+2024-08-01 16:06:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:55 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:55 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:06:56 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:07:08 [scrapy.extensions.logstats] INFO: Crawled 1961 pages (at 97 pages/min), scraped 1760 items (at 81 items/min)
+2024-08-01 16:08:08 [scrapy.extensions.logstats] INFO: Crawled 2056 pages (at 95 pages/min), scraped 1855 items (at 95 items/min)
+2024-08-01 16:08:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:55 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:55 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:56 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:08:56 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:09:02 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:09:08 [scrapy.extensions.logstats] INFO: Crawled 2146 pages (at 90 pages/min), scraped 1928 items (at 73 items/min)
+2024-08-01 16:10:08 [scrapy.extensions.logstats] INFO: Crawled 2250 pages (at 104 pages/min), scraped 2032 items (at 104 items/min)
+2024-08-01 16:10:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:55 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:56 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:56 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:57 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:58 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:58 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:10:59 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:11:00 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:11:00 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:11:01 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:11:02 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:11:02 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:11:08 [scrapy.extensions.logstats] INFO: Crawled 2346 pages (at 96 pages/min), scraped 2111 items (at 79 items/min)
+2024-08-01 16:12:08 [scrapy.extensions.logstats] INFO: Crawled 2440 pages (at 94 pages/min), scraped 2205 items (at 94 items/min)
+2024-08-01 16:13:02 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:03 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:03 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:04 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:04 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:05 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:05 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:06 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:07 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:07 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:08 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:08 [scrapy.extensions.logstats] INFO: Crawled 2539 pages (at 99 pages/min), scraped 2291 items (at 86 items/min)
+2024-08-01 16:13:08 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:09 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:10 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:13:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:14:08 [scrapy.extensions.logstats] INFO: Crawled 2634 pages (at 95 pages/min), scraped 2383 items (at 92 items/min)
+2024-08-01 16:15:08 [scrapy.extensions.logstats] INFO: Crawled 2720 pages (at 86 pages/min), scraped 2468 items (at 85 items/min)
+2024-08-01 16:15:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:11 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:15:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:16:08 [scrapy.extensions.logstats] INFO: Crawled 2805 pages (at 85 pages/min), scraped 2538 items (at 70 items/min)
+2024-08-01 16:17:08 [scrapy.extensions.logstats] INFO: Crawled 2903 pages (at 98 pages/min), scraped 2636 items (at 98 items/min)
+2024-08-01 16:17:25 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:27 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:27 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:27 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:28 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:29 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:29 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:29 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:30 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:31 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:31 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:32 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:33 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:17:34 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:18:08 [scrapy.extensions.logstats] INFO: Crawled 3000 pages (at 97 pages/min), scraped 2719 items (at 83 items/min)
+2024-08-01 16:19:08 [scrapy.extensions.logstats] INFO: Crawled 3094 pages (at 94 pages/min), scraped 2813 items (at 94 items/min)
+2024-08-01 16:19:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:12 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:13 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:14 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:15 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:16 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:17 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:18 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:19 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:20 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:21 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:19:22 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:20:08 [scrapy.extensions.logstats] INFO: Crawled 3192 pages (at 98 pages/min), scraped 2894 items (at 81 items/min)
+2024-08-01 16:21:08 [scrapy.extensions.logstats] INFO: Crawled 3280 pages (at 88 pages/min), scraped 2982 items (at 88 items/min)
+2024-08-01 16:21:24 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:25 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:25 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:26 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:26 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:27 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:27 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:28 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:28 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:29 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:30 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:30 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:31 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:32 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:32 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:33 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:21:34 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:22:08 [scrapy.extensions.logstats] INFO: Crawled 3370 pages (at 90 pages/min), scraped 3055 items (at 73 items/min)
+2024-08-01 16:23:08 [scrapy.extensions.logstats] INFO: Crawled 3463 pages (at 93 pages/min), scraped 3148 items (at 93 items/min)
+2024-08-01 16:23:31 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:31 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:32 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:32 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:33 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:34 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:34 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:35 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:36 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:36 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:37 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:38 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:38 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:39 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:39 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:40 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:23:41 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:24:08 [scrapy.extensions.logstats] INFO: Crawled 3563 pages (at 100 pages/min), scraped 3231 items (at 83 items/min)
+2024-08-01 16:25:08 [scrapy.extensions.logstats] INFO: Crawled 3660 pages (at 97 pages/min), scraped 3328 items (at 97 items/min)
+2024-08-01 16:25:45 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:25:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:26:08 [scrapy.extensions.logstats] INFO: Crawled 3752 pages (at 92 pages/min), scraped 3405 items (at 77 items/min)
+2024-08-01 16:27:08 [scrapy.extensions.logstats] INFO: Crawled 3838 pages (at 86 pages/min), scraped 3491 items (at 86 items/min)
+2024-08-01 16:27:46 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:47 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:48 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:49 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:50 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:51 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:52 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:53 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:54 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:55 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:56 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:57 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:27:58 [py.warnings] WARNING: C:\Users\scoop\anaconda3\Lib\site-packages\scrapy\selector\unified.py:83: UserWarning: Selector got both text and root, root is being ignored.
+  super().__init__(text=text, type=st, root=root, **kwargs)
+
+2024-08-01 16:28:08 [scrapy.extensions.logstats] INFO: Crawled 3921 pages (at 83 pages/min), scraped 3557 items (at 66 items/min)
+2024-08-01 19:28:26 [scrapy.extensions.logstats] INFO: Crawled 3959 pages (at 38 pages/min), scraped 3594 items (at 37 items/min)
