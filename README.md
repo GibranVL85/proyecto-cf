@@ -36,3 +36,11 @@ La respectiva descripcion sobre la obtencion de datos se describe en el document
 ## Datasource
 
 El direcrtorio que contiene la data a trabajar en el proyecto, dicha data fue obtenida a través del crawler de scrapy.
+
+# Visualizacion Efectiva de Datos
+
+La visualizacion efectiva de datos se trabajo como Jupyter Notebook dentro del directorio VisualizacionEfectivaDatos se encuentra el respectivo Notebook, el cual de igual forma se puede visualizar en la siguiente liga:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GibranVL85/proyecto-cf/main?labpath=VisualizacionEfectivaDatos%2Fvisualizacion-efectiva-datos.jpynb)
+
+
