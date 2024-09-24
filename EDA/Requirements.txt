@@ -1,0 +1,2 @@
+ydata-profiling=4.10.0 
+widgetsnbextension=4.0.13 
